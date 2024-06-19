@@ -1,0 +1,6 @@
+com\univer\students\model\entity\StudentsEntity.class
+com\univer\students\controller\formController.class
+com\univer\students\StudentService.class
+com\univer\students\controller\StudentsController.class
+com\univer\students\repository\StudentsRepository.class
+com\univer\students\StudentsApplication.class

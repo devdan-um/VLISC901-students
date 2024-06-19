@@ -1,0 +1,93 @@
+/* Estilo global para el cuerpo de la página */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal del formulario */
+.container {
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 100px;
+    margin-left: -200px;
+}
+
+/* Estilo para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para las etiquetas */
+label {
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    align-self: flex-start;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {
+    border-color: #6a1b9a;
+    outline: none;
+}
+
+/* Estilo para el botón */
+button {
+    padding: 12px 20px;
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #4a148c;
+}
