@@ -6,7 +6,7 @@ import jdk.jfr.DataAmount;
 @Entity
 @Table(name="STUDENTS")
 
-public class StudentsEntity {
+public class  StudentsEntity {
     @Column(name="id")
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,6 +23,17 @@ public class StudentsEntity {
 
     @Column(name="mat")
     private String mat;
+
+    @Column(name="ID_CURSO")
+    private int idCurso;
+
+    public int getIdCurso() {
+        return idCurso;
+    }
+
+    public void setIdCurso(int idCurso) {
+        this.idCurso = idCurso;
+    }
 
     public String getMat() {
         return mat;
